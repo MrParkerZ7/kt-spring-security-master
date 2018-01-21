@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kt-spring-security-master.iml" filepath="$PROJECT_DIR$/kt-spring-security-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-basic/security-basic.iml" filepath="$PROJECT_DIR$/security-basic/security-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-mongo/security-mongo.iml" filepath="$PROJECT_DIR$/security-mongo/security-mongo.iml" />
+    </modules>
+  </component>
+</project>
