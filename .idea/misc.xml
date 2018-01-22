@@ -11,6 +11,9 @@
         <option value="$PROJECT_DIR$/security-basic/pom.xml" />
         <option value="$PROJECT_DIR$/security-mongo/pom.xml" />
         <option value="$PROJECT_DIR$/security-jwt-mongo/pom.xml" />
+        <option value="$PROJECT_DIR$/security-mongo-server-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/security-mongo-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/security-mongo-client-oauth/pom.xml" />
       </list>
     </option>
   </component>

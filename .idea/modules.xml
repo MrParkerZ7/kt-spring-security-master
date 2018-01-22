@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/kt-spring-security-master.iml" filepath="$PROJECT_DIR$/kt-spring-security-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-basic/security-basic.iml" filepath="$PROJECT_DIR$/security-basic/security-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-mongo/security-mongo.iml" filepath="$PROJECT_DIR$/security-mongo/security-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-mongo-client-oauth/security-mongo-client-oauth.iml" filepath="$PROJECT_DIR$/security-mongo-client-oauth/security-mongo-client-oauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-mongo-jwt/security-mongo-jwt.iml" filepath="$PROJECT_DIR$/security-mongo-jwt/security-mongo-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-mongo-server-oauth2/security-mongo-server-oauth2.iml" filepath="$PROJECT_DIR$/security-mongo-server-oauth2/security-mongo-server-oauth2.iml" />
     </modules>
   </component>
 </project>
