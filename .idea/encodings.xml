@@ -4,5 +4,8 @@
     <file url="file://$PROJECT_DIR$/security-basic" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-mongo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-mongo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-mongo-jwt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-mongo-oauth2-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-jwt" charset="UTF-8" />
   </component>
 </project>

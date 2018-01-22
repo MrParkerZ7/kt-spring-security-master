@@ -7,12 +7,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="security-basic" />
+        <module name="security-jwt-mongo" />
         <module name="security-mongo" />
+      </profile>
+      <profile name="Annotation profile for security-jwt-mongo" enabled="true">
+        <sourceOutputDir name="../security-jwt-mongo/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../security-jwt-mongo/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="security-mongo-jwt" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="security-basic" target="1.8" />
+      <module name="security-jwt-mongo" target="1.8" />
       <module name="security-mongo" target="1.8" />
+      <module name="security-mongo-jwt" target="1.8" />
+      <module name="security-mongo-oauth2-server" target="1.8" />
+      <module name="spring-jwt" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

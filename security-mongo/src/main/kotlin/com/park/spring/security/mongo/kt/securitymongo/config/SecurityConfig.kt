@@ -19,7 +19,7 @@ import org.springframework.security.crypto.password.PasswordEncoder
 class SecurityConfig(@Autowired private val customUserDetailsService: CustomUserDetailsService) : WebSecurityConfigurerAdapter() {
 
     override fun configure(auth: AuthenticationManagerBuilder?) {
-        auth!!.userDetailsService(userDetailsService())
+        auth!!.userDetailsService(customUserDetailsService)
                 .passwordEncoder(passwordEncoder)
     }
 
@@ -38,7 +38,7 @@ class SecurityConfig(@Autowired private val customUserDetailsService: CustomUser
                 .failureUrl("/rest/fail")
                 .and()
                 .logout().logoutSuccessUrl("/rest/home")
-                .permitAll();
+                .permitAll()
     }
 
     private val passwordEncoder: PasswordEncoder
